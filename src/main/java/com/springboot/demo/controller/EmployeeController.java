@@ -50,7 +50,7 @@ public class EmployeeController {
 	}
 
 	//Get all
-	@Operation(summary = "Get all employees", description = "Retrieves all employee detail")
+	@Operation(summary = "Get all employees", description = "Retrieves all employee details")
 	@ApiResponses(value = {
 			@ApiResponse(responseCode = "200", description = "Successfully retrieved"),
 	})
